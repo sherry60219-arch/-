@@ -14,10 +14,10 @@
         return;
       }
 
-      const data = { item, price, note };
+      const data = { date, item, price, note };
 
       try {
-        const response = await fetch(""https://script.google.com/macros/s/AKfycbyLcdoQbtGzsEXEiGN7XH9nY344Lj6ynx_o6oCIVTNEUaeemVgwEEnAPMftAjqqnPR2SA/exec"", {
+        const response = await fetch("https://script.google.com/macros/s/AKfycbyLcdoQbtGzsEXEiGN7XH9nY344Lj6ynx_o6oCIVTNEUaeemVgwEEnAPMftAjqqnPR2SA/exec", {
           method: ""POST"",
           mode: ""no-cors"", 
           headers: { ""Content-Type"": ""application/json"" },
